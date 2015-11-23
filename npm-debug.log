@@ -1,0 +1,117 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.28
+4 verbose node symlink C:\Program Files (x86)\nodejs\\node.exe
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ 'C:\\Users\\User 6_2\\Desktop\\try-middleman',
+6 verbose install   [ 'gulp-sass' ] ]
+7 info preinstall pages-boiler-plate@1.0.0
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'gulp-sass@^1.3.6', null ]
+10 verbose cache add name=undefined spec="gulp-sass@^1.3.6" args=["gulp-sass@^1.3.6",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'gulp-sass@^1.3.6',
+11 verbose parsed url   path: 'gulp-sass@^1.3.6',
+11 verbose parsed url   href: 'gulp-sass@^1.3.6' }
+12 verbose cache add name="gulp-sass" spec="^1.3.6" args=["gulp-sass","^1.3.6"]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: '^1.3.6',
+13 verbose parsed url   path: '^1.3.6',
+13 verbose parsed url   href: '^1.3.6' }
+14 verbose addNamed [ 'gulp-sass', '^1.3.6' ]
+15 verbose addNamed [ null, '>=1.3.6-0 <2.0.0-0' ]
+16 silly lockFile 8b4a2c4f-gulp-sass-1-3-6 gulp-sass@^1.3.6
+17 verbose lock gulp-sass@^1.3.6 C:\Users\User 6_2\AppData\Roaming\npm-cache\8b4a2c4f-gulp-sass-1-3-6.lock
+18 silly addNameRange { name: 'gulp-sass',
+18 silly addNameRange   range: '>=1.3.6-0 <2.0.0-0',
+18 silly addNameRange   hasData: false }
+19 verbose url raw gulp-sass
+20 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-sass' ]
+21 verbose url resolved https://registry.npmjs.org/gulp-sass
+22 info trying registry request attempt 1 at 12:38:38
+23 verbose etag "7BA2B7YWYAMDUJNXG86IXD7P7"
+24 http GET https://registry.npmjs.org/gulp-sass
+25 http 304 https://registry.npmjs.org/gulp-sass
+26 silly registry.get cb [ 304,
+26 silly registry.get   { date: 'Mon, 16 Nov 2015 07:09:25 GMT',
+26 silly registry.get     via: '1.1 varnish',
+26 silly registry.get     'cache-control': 'max-age=60',
+26 silly registry.get     etag: '"7BA2B7YWYAMDUJNXG86IXD7P7"',
+26 silly registry.get     age: '21',
+26 silly registry.get     connection: 'keep-alive',
+26 silly registry.get     'x-served-by': 'cache-sin6922-SIN',
+26 silly registry.get     'x-cache': 'HIT',
+26 silly registry.get     'x-cache-hits': '14',
+26 silly registry.get     'x-timer': 'S1447657765.750189,VS0,VE0',
+26 silly registry.get     vary: 'Accept' } ]
+27 verbose etag gulp-sass from cache
+28 silly addNameRange number 2 { name: 'gulp-sass', range: '>=1.3.6-0 <2.0.0-0', hasData: true }
+29 silly addNameRange versions [ 'gulp-sass',
+29 silly addNameRange   [ '0.1.0',
+29 silly addNameRange     '0.2.1',
+29 silly addNameRange     '0.2.2',
+29 silly addNameRange     '0.2.3',
+29 silly addNameRange     '0.3.0',
+29 silly addNameRange     '0.4.0',
+29 silly addNameRange     '0.4.1',
+29 silly addNameRange     '0.5.0',
+29 silly addNameRange     '0.5.1',
+29 silly addNameRange     '0.5.2',
+29 silly addNameRange     '0.6.0',
+29 silly addNameRange     '0.7.0',
+29 silly addNameRange     '0.7.1',
+29 silly addNameRange     '0.7.2',
+29 silly addNameRange     '0.7.3',
+29 silly addNameRange     '1.0.0',
+29 silly addNameRange     '1.1.0',
+29 silly addNameRange     '1.2.0',
+29 silly addNameRange     '1.2.1',
+29 silly addNameRange     '1.2.2',
+29 silly addNameRange     '1.2.3',
+29 silly addNameRange     '1.2.4',
+29 silly addNameRange     '1.3.0',
+29 silly addNameRange     '1.3.1',
+29 silly addNameRange     '1.3.2',
+29 silly addNameRange     '1.3.3',
+29 silly addNameRange     '2.0.0-alpha.1',
+29 silly addNameRange     '2.0.0',
+29 silly addNameRange     '2.0.2',
+29 silly addNameRange     '2.0.3',
+29 silly addNameRange     '2.0.4',
+29 silly addNameRange     '2.1.0-beta',
+29 silly addNameRange     '2.1.0' ] ]
+30 silly lockFile 8b4a2c4f-gulp-sass-1-3-6 gulp-sass@^1.3.6
+31 silly lockFile 8b4a2c4f-gulp-sass-1-3-6 gulp-sass@^1.3.6
+32 error notarget No compatible version found: gulp-sass@'>=1.3.6-0 <2.0.0-0'
+32 error notarget Valid install targets:
+32 error notarget ["0.1.0","0.2.1","0.2.2","0.2.3","0.3.0","0.4.0","0.4.1","0.5.0","0.5.1","0.5.2","0.6.0","0.7.0","0.7.1","0.7.2","0.7.3","1.0.0","1.1.0","1.2.0","1.2.1","1.2.2","1.2.3","1.2.4","1.3.0","1.3.1","1.3.2","1.3.3","2.0.0-alpha.1","2.0.0","2.0.2","2.0.3","2.0.4","2.1.0-beta","2.1.0"]
+32 error notarget
+32 error notarget This is most likely not a problem with npm itself.
+32 error notarget In most cases you or one of your dependencies are requesting
+32 error notarget a package version that doesn't exist.
+33 error System Windows_NT 6.1.7601
+34 error command "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+35 error cwd C:\Users\User 6_2\Desktop\try-middleman
+36 error node -v v0.10.28
+37 error npm -v 1.4.9
+38 error code ETARGET
+39 verbose exit [ 1, true ]
