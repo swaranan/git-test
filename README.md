@@ -1,13 +1,12 @@
 # Hello swaranan
 
-
+# Hello swaranan
 
 
 # added this new line
 
-
+I am the best.
 # MyApp
-
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.2.
 
 ## Development server
