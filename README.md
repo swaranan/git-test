@@ -1,4 +1,10 @@
+<<<<<<< Updated upstream
 #Hello swaranan
+=======
+I am the best.
+
+
+>>>>>>> Stashed changes
 
 # MyApp
 
